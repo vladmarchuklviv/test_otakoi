@@ -1,0 +1,102 @@
+
+#nav-manu{
+	height: 60px;
+	background-color: #E76429;
+}
+
+#nav-manu h2{
+	color: white;
+	text-align: center;
+	margin: 12px;
+}
+
+#left-bar{
+	
+}
+
+#left-bar a{
+	display: block;
+	margin: 10px auto;
+}
+
+#auth-form{
+	background-color: #F2F2F2;
+	border-radius: 5px;
+	padding: 7px;
+}
+
+#auth-form input{
+	border-radius: 4px;
+	width: 100%;
+	margin: 5px 0 0 0;
+}
+
+#auth-form button{
+	margin: 5px auto;
+	display: block;
+}
+
+#auth-form p{
+	text-align: center;
+	font-size: 15px;
+	font-weight: bolder;
+	margin: 0;
+}
+
+.star{
+	font-size: 17px;
+	color: red;
+	margin: 0 2px 0 0;
+}
+
+
+
+table.tablesorter .header {
+	background-image: url(../img/bg.png);
+	background-repeat: no-repeat;
+	background-position: left center;
+	padding-left: 20px;
+	padding-top: 8px;
+	height: auto;
+	cursor: pointer;
+}
+table.tablesorter .headerSortUp {
+	background-image: url(../img/asc.png);
+	background-repeat: no-repeat;
+	background-position: left center;
+	cursor: pointer;
+}
+table.tablesorter .headerSortDown {
+	background-image: url(../img/desc.png);
+	background-repeat: no-repeat;
+	background-position: left center;
+	cursor: pointer;
+}
+
+#pager{
+	margin: 0 auto;
+}
+
+#pager input{
+	text-align: center; 
+	width:80px; 
+	height: 27px;
+	display: inline;
+}
+
+#error_block{
+	padding: 0 0 20px 0;
+	background-color: #FFBABA;
+	height: 100%;
+	color: red;
+	text-align: center;
+	font-size: 20px;
+}
+
+#error_block img{
+	margin: 0 0 15px 0;
+}
+
+#error_block a{
+	margin: 30px 0 0 0;
+}
