@@ -15,6 +15,8 @@ class Routing
       $controller->index();
       return false;
     } 
+    
+    $url[0] = ucfirst($url[0]);
 
     $file = 'controller/'.$url[0].'Controller.php';
 
